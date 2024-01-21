@@ -1,11 +1,9 @@
 package hello.itemservice.config;
 
-import hello.itemservice.jpa.JpaItemRepository;
+import hello.itemservice.repository.jpa.JpaItemRepository;
 import hello.itemservice.repository.ItemRepository;
-import hello.itemservice.repository.mybatis.MyBatisItemRepository;
 import hello.itemservice.service.ItemService;
 import hello.itemservice.service.ItemServiceV1;
-import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
